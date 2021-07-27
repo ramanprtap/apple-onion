@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/apple-onion/static/css/main.bfb5f045.chunk.css",
-    "main.js": "/apple-onion/static/js/main.0f0e5fac.chunk.js",
-    "main.js.map": "/apple-onion/static/js/main.0f0e5fac.chunk.js.map",
+    "main.js": "/apple-onion/static/js/main.c70381b4.chunk.js",
+    "main.js.map": "/apple-onion/static/js/main.c70381b4.chunk.js.map",
     "runtime-main.js": "/apple-onion/static/js/runtime-main.1653d2b1.js",
     "runtime-main.js.map": "/apple-onion/static/js/runtime-main.1653d2b1.js.map",
     "static/css/2.651d9f7f.chunk.css": "/apple-onion/static/css/2.651d9f7f.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.651d9f7f.chunk.css",
     "static/js/2.8441843e.chunk.js",
     "static/css/main.bfb5f045.chunk.css",
-    "static/js/main.0f0e5fac.chunk.js"
+    "static/js/main.c70381b4.chunk.js"
   ]
 }
