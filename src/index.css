@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400&display=swap");
+body {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 200;
+}
+
+.navbar-dark {
+  background-color: black;
+}
+
+.navbar-dark .navbar-nav {
+  margin-left: auto !important;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-container {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-container .detailsWrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-container .detailsWrapper h1 {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.05;
+  font-weight: 600;
+  letter-spacing: -.015em;
+}
+
+@media (max-width: 768px) {
+  .hero-container .detailsWrapper {
+    top: auto;
+    bottom: 10%;
+  }
+  .hero-container .detailsWrapper h1 {
+    font-size: 32px;
+  }
+}
+
+.hero-container .detailsWrapper .buttonForHome {
+  text-decoration: none;
+  color: #f5f5f7;
+  font-size: 21px;
+  line-height: 1.19048;
+  font-weight: 600;
+}
+
+.hero-container .detailsWrapper .buttonForHome:hover {
+  border-bottom: 2px solid #f5f5f7;
+}
+
+.sliderwrapper .img-item {
+  padding: 5px;
+}
+
+.sliderwrapper .img-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sliderwrapper h2 {
+  padding: 1.5rem 0 0 0;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+footer {
+  background-color: #000;
+  color: #f5f5f7;
+  padding: 3.5rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer ul h4 {
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+footer ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.privacyDetails {
+  padding: 15px 0;
+  text-align: center;
+  font-size: 18px;
+  color: #000;
+  background-color: #f7f7f7;
+}
+
+.privacyDetails p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=index.css.map */
