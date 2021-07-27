@@ -11,20 +11,22 @@ import Offers from './Offers';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Redirect, Route, Switch, BrowserRouter } from 'react-router-dom';
 
 
 const App = () =>{
   return(
     <>
       <Navbar/>
+      <BrowserRouter>
       <Switch>
-        <Route exact  path={process.env.PUBLIC_URL + '/'} component={Home} />
+        <Route exact  path='/' component={Home} />
         <Route exact path='/category' component={Category} />
         <Route exact path='/product' component={Product} />
         <Route exact path='/offers' component={Offers} />
-        <Redirect to={process.env.PUBLIC_URL + '/'} ></Redirect>
+        <Redirect to="/" ></Redirect>
       </Switch>
+      </BrowserRouter>
       <Footer/>
     </>
   )
