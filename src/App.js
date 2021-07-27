@@ -19,11 +19,11 @@ const App = () =>{
     <>
       <Navbar/>
       <Switch>
-        <Route exact  path='/' component={Home} />
+        <Route exact  path={process.env.PUBLIC_URL + '/'} component={Home} />
         <Route exact path='/category' component={Category} />
         <Route exact path='/product' component={Product} />
         <Route exact path='/offers' component={Offers} />
-        <Redirect to="/" ></Redirect>
+        <Redirect to={process.env.PUBLIC_URL + '/'} ></Redirect>
       </Switch>
       <Footer/>
     </>
