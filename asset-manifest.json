@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/apple-onion/static/css/main.bfb5f045.chunk.css",
+    "main.js": "/apple-onion/static/js/main.0f0e5fac.chunk.js",
+    "main.js.map": "/apple-onion/static/js/main.0f0e5fac.chunk.js.map",
+    "runtime-main.js": "/apple-onion/static/js/runtime-main.1653d2b1.js",
+    "runtime-main.js.map": "/apple-onion/static/js/runtime-main.1653d2b1.js.map",
+    "static/css/2.651d9f7f.chunk.css": "/apple-onion/static/css/2.651d9f7f.chunk.css",
+    "static/js/2.8441843e.chunk.js": "/apple-onion/static/js/2.8441843e.chunk.js",
+    "static/js/2.8441843e.chunk.js.map": "/apple-onion/static/js/2.8441843e.chunk.js.map",
+    "index.html": "/apple-onion/index.html",
+    "static/css/2.651d9f7f.chunk.css.map": "/apple-onion/static/css/2.651d9f7f.chunk.css.map",
+    "static/css/main.bfb5f045.chunk.css.map": "/apple-onion/static/css/main.bfb5f045.chunk.css.map",
+    "static/js/2.8441843e.chunk.js.LICENSE.txt": "/apple-onion/static/js/2.8441843e.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/apple-onion/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1653d2b1.js",
+    "static/css/2.651d9f7f.chunk.css",
+    "static/js/2.8441843e.chunk.js",
+    "static/css/main.bfb5f045.chunk.css",
+    "static/js/main.0f0e5fac.chunk.js"
+  ]
+}
